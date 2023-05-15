@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practicse suite]">
+  <test thread-count="5" name="Practicse form test(failed)">
+    <classes>
+      <class name="futuretrend.alltest.PracticseFormTest">
+        <methods>
+          <include name="closeTest"/>
+          <include name="practicseformCase1"/>
+          <include name="startTest"/>
+          <include name="closereporting"/>
+          <include name="startReporting"/>
+        </methods>
+      </class> <!-- futuretrend.alltest.PracticseFormTest -->
+    </classes>
+  </test> <!-- Practicse form test(failed) -->
+</suite> <!-- Failed suite [Practicse suite] -->
